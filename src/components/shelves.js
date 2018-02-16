@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
 
-const url = 'http://localhost:1337/api'
+const url = 'http://localhost:9000/api'
 
 
 

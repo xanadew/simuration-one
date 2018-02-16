@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-const url = 'http://localhost:1337/api'
-
-
+const url = 'http://localhost:9000/api'
 
 
 class Bins extends Component {
@@ -14,7 +12,6 @@ class Bins extends Component {
       returnedResponse: []
     }
   }
-
 
   get() {
     axios
@@ -27,10 +24,6 @@ class Bins extends Component {
   componentWillMount() {
     this.get();
   }
-
-
-
-
 
   render() {
     return(

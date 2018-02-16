@@ -9,7 +9,7 @@ import Header from './components/header.js'
 
 
 
-const url = 'http://localhost:1337/api/shelf/B'
+const url = 'http://localhost:9000/api/shelf/B'
 
 class App extends Component {
   constructor() {
@@ -22,7 +22,7 @@ class App extends Component {
 
   // get() {
   // axios
-  //   .get('http://localhost:1337/api/shelf/A')
+  //   .get('http://localhost:9000/api/shelf/A')
   //   .then((response) => {console.log(response)})
   // }
 
